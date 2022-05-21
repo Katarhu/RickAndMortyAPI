@@ -16,7 +16,7 @@ class SearchedObject {
   }
   createElement(){
     let block = `<div class="block" data-id="${this.id}">
-                <span class="status ${this.status}">${this.status}</span>
+                <span class="status ${this.status.toLowerCase()}">${this.status}</span>
                 <div class="block__photo">
                   <img class="block__img" src="${this.image}">
                 </div>
