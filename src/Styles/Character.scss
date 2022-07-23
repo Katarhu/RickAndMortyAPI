@@ -1,0 +1,41 @@
+
+
+.character {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+    align-items: center;
+
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px #000;
+
+    overflow: hidden;
+}
+
+.character__image {
+    border-bottom: 2px solid #000;
+}
+
+.character__img {
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.charachter__name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 10px 5px;
+}
+
+.character__controls {
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.character__controls .icon-button {
+    margin: 0 15px;
+}

@@ -1,0 +1,21 @@
+
+
+.header {
+    height: 80px;
+    background: #000;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 30px;
+}
+
+.header__logo {
+
+}
+
+.header__link {
+    color: #fff;
+    font-size: 24px;
+}
